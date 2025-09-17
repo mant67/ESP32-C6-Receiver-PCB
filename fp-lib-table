@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "KiCad-Waveshare-ESP32-main")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Waveshare-ESP32-main.pretty")(options "")(descr ""))
   (lib (name "Waveshare-ESP32")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Waveshare-ESP32-main/Waveshare-ESP32.pretty")(options "")(descr ""))
+  (lib (name "myCustomLib")(type "KiCad")(uri "${KIPRJMOD}/KiCad-Waveshare-ESP32-main/myCustomLib.pretty")(options "")(descr ""))
 )

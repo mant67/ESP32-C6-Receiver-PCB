@@ -1,4 +1,4 @@
-26583692719006408
+26590723690656000
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -106043,6 +106043,34 @@ Waveshare-ESP32-C3-Zero
 18
 18
 Waveshare-ESP32
+Waveshare-ESP32-C6-Zero
+
+
+0
+18
+18
+Waveshare-ESP32
+Waveshare-ESP32-C6-Zero-orig
+
+
+0
+18
+18
+myCustomLib
+SS34-5.4mm x 2.0mm
+
+
+0
+2
+2
+myCustomLib
+SW_SPST_B3S-1000
+Surface Mount Tactile Switch for High-Density Packaging
+Tactile Switch
+0
+4
+2
+myCustomLib
 Waveshare-ESP32-C6-Zero
 
 

@@ -64,7 +64,7 @@
 		)
 		(symbol "RZ7899_1_1"
 			(pin input line
-				(at -2.54 -6.35 0)
+				(at -1.27 -6.35 0)
 				(length 2.54)
 				(name "inr"
 					(effects
@@ -82,7 +82,7 @@
 				)
 			)
 			(pin input line
-				(at -2.54 -12.7 0)
+				(at -1.27 -12.7 0)
 				(length 2.54)
 				(name "inf"
 					(effects
@@ -135,7 +135,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 16.51 -5.08 180)
 				(length 2.54)
 				(name "ouf"
@@ -153,7 +153,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 16.51 -7.62 180)
 				(length 2.54)
 				(name "outf"
@@ -171,7 +171,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 16.51 -11.43 180)
 				(length 2.54)
 				(name "outr"
@@ -189,7 +189,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin passive line
 				(at 16.51 -13.97 180)
 				(length 2.54)
 				(name "outr"
