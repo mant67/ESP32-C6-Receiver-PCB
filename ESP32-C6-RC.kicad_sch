@@ -3454,16 +3454,6 @@
 		)
 		(uuid "fae3e943-67b8-447d-b281-728b4b43abd4")
 	)
-	(wire
-		(pts
-			(xy 43.18 25.4) (xy 43.18 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "feda7241-4ab9-4798-8321-03656e1c108b")
-	)
 	(global_label "MOT-A"
 		(shape input)
 		(at 212.09 53.34 180)
@@ -4081,72 +4071,6 @@
 			(project "ESP32-C6-RC"
 				(path "/c7efdda5-2cce-48fd-8ac9-1be4f59a0af3"
 					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 43.18 29.21 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "24f02e3e-4b68-4966-a528-e25424b675dc")
-		(property "Reference" "#FLG03"
-			(at 43.18 31.115 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 43.18 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 43.18 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe8935f5-25b3-494f-a2a1-195f92dc8d7f")
-		)
-		(instances
-			(project ""
-				(path "/c7efdda5-2cce-48fd-8ac9-1be4f59a0af3"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -6721,72 +6645,6 @@
 			(project ""
 				(path "/c7efdda5-2cce-48fd-8ac9-1be4f59a0af3"
 					(reference "FB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 43.18 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f177ae35-37a8-4518-a57d-487588019573")
-		(property "Reference" "#PWR023"
-			(at 43.18 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 43.18 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 43.18 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e70c0e74-22ba-4a46-a5b2-804f3218f444")
-		)
-		(instances
-			(project ""
-				(path "/c7efdda5-2cce-48fd-8ac9-1be4f59a0af3"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
